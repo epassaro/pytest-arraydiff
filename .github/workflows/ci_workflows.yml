@@ -32,7 +32,7 @@ jobs:
           - os: ubuntu-latest
             python-version: 3.8
             toxenv: py38-test-pytest60
-          - os: macos-latest
+          - os: macos-10.14
             python-version: 3.9
             toxenv: py39-test-pytest61
           - os: ubuntu-latest
